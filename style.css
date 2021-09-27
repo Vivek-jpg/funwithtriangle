@@ -24,6 +24,8 @@ button{
     background-color: darkcyan;
     color: white;
     outline: none;
+    margin-left: 450px;
+    margin-top: 10px;
   
    
 }
@@ -73,9 +75,11 @@ a{
     width: 300px;
     height: 3rem;
     color: cadetblue;
-    margin-top: 15px;
+    margin-top: 25px;
     justify-content: center;
     align-content: center;
+    margin-left: 450px;
+    padding-left: 5px;
 }
     h1{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -101,4 +105,8 @@ a{
         font-size: 400;
         margin-left: 10px;
         color: white;
+    }
+    p{
+        color: white;
+        font-size: 16px;
     }
