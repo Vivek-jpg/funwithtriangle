@@ -9,9 +9,10 @@ const correctAnswers = [
  
 ];
 
-function calculateScore() {
+function calculateScore(e) {
+    e.preventDefault();
   const formResults = new FormData(quizform);
-  let score = 0;
+  let score = 1;
     index = 0;
   for (let value of formResults.values()) {
     if (value === correctAnswers[index]) {
