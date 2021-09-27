@@ -1,18 +1,28 @@
-const QuizForm = document.querySelector('.Quiz-form')
-const Submitbtn = document.querySelector('#sunmit-answer-btn')
-const OutputEw = document.querySelector('#output');
-const cirrectAnswer =["90","right angle",];
-function calculateScore(){
-  let score =0;
-  let index = 0;
-  const formResults=new FormData(QuizForm);
- for(let value of formResults.values()){
-   if(value===cirrectAnswer[index]){
-       score++;
-   }
-   index++
- }
-  
-  OutputEw.innerText("your scoe is"+score);
+   
+const quizform = document.querySelector(".Quiz-form");
+const submitBtn = document.querySelector("#sunmit-answer-btn");
+const outputEl = document.querySelector("#output");
+
+const correctAnswers = [
+  "90°",
+  "right angled",
+ 
+];
+
+function calculateScore() {
+  const formResults = new FormData(quizform);
+  let score = 0;
+    index = 0;
+  for (let value of formResults.values()) {
+    if (value === correctAnswers[index]) {
+      score++;
+    }
+    index++;
+    
+  }
+  outputEl.innerText = "The score is " + score;
+ 
+
 }
-Submitbtn.addEventListener("click",calculateScore)
+
+submitBtn.addEventListener("click", calculateScore);
