@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(197, 202, 201);
+    padding: 1.5rem;
+}
+
+.Quiz-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 2rem;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: 2px white solid;
+    background-color: darkcyan;
+    color: white;
+    outline: none;
+}
+form{
+    padding: 2rem;
+}
+.Question-container{
+    padding: 1rem;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    width: auto;
+
+}
+
+a{
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    font-weight: bolder;
+    font-size: 0.9rem;
+}
+.active{
+    color: red;
+}
