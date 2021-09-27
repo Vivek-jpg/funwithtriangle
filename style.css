@@ -1,8 +1,8 @@
-*{
+*{  
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(197, 202, 201);
+    background-color: rgb(28, 29, 29);
     padding: 1.5rem;
 }
 
@@ -24,6 +24,8 @@ button{
     background-color: darkcyan;
     color: white;
     outline: none;
+  
+   
 }
 form{
     padding: 2rem;
@@ -35,8 +37,11 @@ nav{
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(231, 113, 17);
     width: auto;
+    border-radius: 5px;
+    height: 4rem;
+    border:solid 4px cornsilk;
 
 }
 
@@ -50,3 +55,50 @@ a{
 .active{
     color: red;
 }
+.input-field{
+    background-color: rgba(0, 255, 255, 0.507);
+    display: flex;
+    margin: 10px;
+    width: 50%;
+    height: 3rem;
+    align-items: center;
+    margin-left: 450px;
+    border-radius: 5px;
+    border: solid 3px rgb(88, 208, 230);
+
+}
+#output{
+    background-color: beige;
+    border-radius: 5px;
+    width: 300px;
+    height: 3rem;
+    color: cadetblue;
+    margin-top: 15px;
+    justify-content: center;
+    align-content: center;
+}
+    h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        align-content: center;
+        color: cornsilk;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+    .angle-input{
+        background-color: rgb(255, 255, 255);
+        width: 80%;
+        height: 2rem;
+        border-radius: 5px;
+        border: none;
+        margin-left: 15px;
+        
+    }
+    .angle1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 400;
+        margin-left: 10px;
+        color: white;
+    }
