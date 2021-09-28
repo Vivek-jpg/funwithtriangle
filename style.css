@@ -24,8 +24,8 @@ button{
     background-color: darkcyan;
     color: white;
     outline: none;
-    margin-left: 450px;
-    margin-top: 10px;
+    margin-left: 30rem;
+    margin-top: 1rem;
   
    
 }
@@ -60,11 +60,11 @@ a{
 .input-field{
     background-color: rgba(0, 255, 255, 0.507);
     display: flex;
-    margin: 10px;
+    margin: 1rem;
     width: 50%;
     height: 3rem;
     align-items: center;
-    margin-left: 450px;
+    margin-left: 25rem;
     border-radius: 5px;
     border: solid 3px rgb(88, 208, 230);
 
@@ -72,13 +72,13 @@ a{
 #output{
     background-color: beige;
     border-radius: 5px;
-    width: 300px;
+    width: 20rem;
     height: 3rem;
     color: cadetblue;
     margin-top: 25px;
     justify-content: center;
     align-content: center;
-    margin-left: 450px;
+    margin-left: 30rem;
     padding-left: 5px;
 }
     h1{
