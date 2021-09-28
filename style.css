@@ -110,3 +110,119 @@ a{
         color: white;
         font-size: 16px;
     }
+    
+footer{
+    background-color: #7934d3;
+    margin-top: 5rem;
+    
+}
+.fa {
+    padding: 10px;
+    font-size: larger;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2rem;
+    color: white;
+    transition: 1s;
+  }
+
+  .fa-github:hover{
+      color: #624a85;
+     margin: 0px 50px;
+     transition: 1s;
+     font-size: xx-large;
+}
+
+  .fa-linkedin:hover{
+      color: #0e76a8 ;
+      margin: 0px 50px;
+     transition: 1s;
+     font-size: xx-large;
+  }
+
+  .fa-twitter:hover{
+      color:#1DA1F2;
+      margin: 0px 50px;
+     transition: 1s;
+     font-size: xx-large;
+  }
+
+  .fa-instagram:hover{
+      color:#fb3958 ;
+      margin: 0px 50px;
+     transition: 1s;
+     font-size: xx-large;
+  }
+  
+  footer h3{
+      
+      padding: 3rem;
+      margin: auto;
+      text-align: center;
+      color: white;
+      letter-spacing: 0.5rem;
+  }
+
+  .icon{
+      margin-left: 2rem;
+      padding: auto;
+      text-align: center;
+      font-size: x-large;
+  }
+
+  /*end of navigation*/
+
+.project-img {
+    max-width: 80%;
+    width: 420px;
+    display: block;
+    margin: auto;
+
+}
+
+.my-img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    font-size: small;
+}
+
+.link .footer-img {
+
+    padding: 1rem 2rem;
+    text-align: center;
+  
+    padding-bottom: 0rem;
+
+}
+
+
+em{
+    color:white;
+}
+.footer-text1{
+    color: #78FFF1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+
+
+}
+.footer-text1:hover{
+    text-transform: capitalize;
+    text-shadow: #a0a0a1;
+    color: #FBBF24;
+}
