@@ -12,14 +12,15 @@ function CalculateSumOfAngles(angle1,angle2,angle3){
 function IsTriangle(){
     const SumOFAngles = CalculateSumOfAngles(Number(inputs[0].value ),Number( inputs[1].value),Number( inputs[2].value));
     if(SumOFAngles===180){
-        if(inputs[0].value == 0 || inputs[1].value == 0 || inputs[2].value == 0)
+          if(inputs[0].value == 0 || inputs[1].value == 0 || inputs[2].value == 0)
         {
-            
+            console.log("yes traiangle");
             outputElement.innerText = "The angles can not be zero hence it does not form a triangle 🙂";
         }
-        else{
+        else 
+        {
       
-        OutputEl.innerHTML="angles form a triangle 🙂";
+        OutputEl.innerText="angles form a triangle 🙂";
         }
 
     }else if(inputs[0].value === "" || inputs[1].value === "" || inputs[2].value === ""){
@@ -30,7 +31,7 @@ function IsTriangle(){
     }
 
     
-    else {n 
+    else { 
      
         OutputEl.innerHTML=" ohh angle entered by you does not form a triangle";
     }

@@ -15,20 +15,19 @@ function calculateHypotenuse(){
   
     if( height.value < 0 || base.value < 0)
     { 
-        output.innerText = "Please enter positive values!!!🙄";
+        output.innerText = "Please enter positive values!   !🙄";
     }else
     
     if( height.value === "" || base.value === "")
     {
         output.innerText = "Please enter both the values !!! 🙄 ";
-    }else 
-    if(Number(height.value) === 0 || Number(base.value) === 0){
+    }else if(Number(height.value) === 0 || Number(base.value) === 0){
         console.log("kya");
         output.innerText = "Height or Base can not be zero. Please enter positive values !!! 🙄 ";
     }
     else{
-    const sumOfSquares = calculateSumOfSquares(Number(sideInput[0].value), Number(sideInput[1].value));
-    const lengthOfHypotenuse = Math.sqrt(sumOfSquares);
+    const sumOfSquares = calculateSumOfSquares(Number(height.value), Number(base.value));
+    const lengthOfHypotenuse =( Math.sqrt(sumOfSquares)).toFixed(2);
     output.innerText = "The length of hypotenuse is " + lengthOfHypotenuse;
    
 }
